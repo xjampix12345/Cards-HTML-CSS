@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    color: #FFFFFF;
+}
+
+.cards2 {
+    background-color: pink;
+    text-align: center;
+    width: 300px;
+    padding: 25px 15px;
+    margin: 100px auto;
+    box-shadow: -30px -30px 1px 5px #e9304f9a;
+}
+
+.cards2__img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.cards2__title {
+    font-size: 2rem;
+    margin: 10px auto;
+
+}
+
+.cards2__paragraph {
+    font-weight: 600;
+}
+
+.cards2__link {
+    background-color: #FFFFFF;
+    text-decoration: none;
+    color: pink;
+    width: 150px;
+    padding: 10px;
+    margin: 15px auto;
+    border-radius: 10px;
+    display: block;
+}
+
+.cards2__link:hover {
+    background-color: #FE7450;
+    color: #FFFFFF;
+}
