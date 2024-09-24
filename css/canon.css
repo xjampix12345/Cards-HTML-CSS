@@ -1,0 +1,64 @@
+/* Styles cards2.html */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #000000;
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+    font-optical-sizing: auto;
+    color: #FFFFFF;
+}
+
+.section {
+    background-color: peru;
+    width: 300px;
+    margin: 150px auto;
+    padding-bottom: 70px;
+    box-shadow: 25px 25px 0px 1px  	#DAA520
+}
+
+.section:hover {
+    background-color: #DAA520;
+    box-shadow: 25px 25px 0px 1px  	peru;
+}
+
+.section__img {
+    width: 100%;
+
+}
+
+.section__title {
+    font-size: 2rem;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: 900;
+}
+
+.section__paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    margin: 10px 30px;
+    text-align: center;
+}
+
+.section__link {
+    color: peru;
+    background-color: #FFFFFF;
+    width: 120px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: 25px auto;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.section__link:hover {
+    background-color: peru;
+    color: #FFFFFF;
+}
